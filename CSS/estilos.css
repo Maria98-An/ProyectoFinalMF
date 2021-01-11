@@ -11,6 +11,9 @@
     font: bold italic 60px  "brandhitc";*/
     color: white;
     text-align: center;
+    border: white;
+    border-style: solid;
+    
     
 }
 /*h1:hover{
@@ -29,4 +32,28 @@ p{
 }
 img{
     vertical-align: middle;
+}
+#uno{
+    vertical-align: middle;
+
+    
+}
+#dos{
+    vertical-align: middle;
+
+}
+#imagen {
+    width:500px;
+    height:375px;
+    position:relative;
+}
+#imagen>div
+{
+    position: relative;
+    bottom:25px;
+    color:#fff;
+    background-color:#000;
+    padding:2px 10px;
+    opacity:0.5;
+    font-weight:bold;
 }
