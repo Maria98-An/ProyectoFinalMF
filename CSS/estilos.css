@@ -1,7 +1,32 @@
+@font-face{
+    font-family: "brandhitc";
+    src: url("bradhitc.ttf");
+}
+
+
 #maria{
-    color  : #00ff00ff;
+    font-family: "brandhitc";
+    font-size: 50px;
+    /*
+    font: bold italic 60px  "brandhitc";*/
+    color: white;
+    text-align: center;
+    
+}
+/*h1:hover{
+    color:yellow;
+    cursor: pointer;
+}*/
+
+
+p{
+    color: white;
+    text-align: right;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 
 }
-span{
-    color :#00FFFF;
+img{
+    vertical-align: middle;
 }
