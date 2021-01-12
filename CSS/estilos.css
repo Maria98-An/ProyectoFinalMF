@@ -3,22 +3,24 @@
     src: url("bradhitc.ttf");
 }
 body{
-    background:url("../IMG/fondorp.png");
+    background:url("../IMG/inicio.jpg");
     background-size: cover;
 }
 #nuevo{
     background:url("../IMG/cafe1.jpg");
         background-size: cover;
+        
 }
 #maria{
     font-family: "brandhitc";
-    font-size: 50px;
+    font-size: 70px;
     /*
     font: bold italic 60px  "brandhitc";*/
     color: white;
     text-align: center;
-    border: white;
+    border: black;
     border-style: solid;
+    text-shadow: 3px 3px 3px  #ff8c00;
     
     
 }
@@ -33,6 +35,7 @@ p{
     text-align: right;
     font-size: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 2px #8b4513;
 
 
 }
@@ -41,8 +44,16 @@ p{
 }
 img{
     vertical-align: middle;
-
+    text-align: center;
+    width: 350px;
+    height: 200px;
+   
     }
+#img1{
+        vertical-align: right;
+        align-items: flex-end;
+    
+    }  
 #imagen {
     width:200px;
     height:375px;
@@ -51,11 +62,41 @@ img{
 #imagen>div
 {
     position: relative;
-    bottom:900px;
+    bottom:50px;
     color:#fff;
     background-color:#000;
-    padding:300px 600px;
+    padding:100px 900px;
     opacity:0.5;
     font-weight:bold;
     font-size: 90px;
 }
+#in>div{
+    position:relative;
+    bottom:50px;
+    color:#fff;
+    background-color:#000;
+    padding:80px 600px;
+    opacity:0.5;
+    font-weight:bold;
+    font-size: 40px;
+    text-align: top;
+   
+    
+}
+#dir{
+    text-align: left;
+}
+#platos{
+    vertical-align: 600px;
+    border: 10px solid #fff;
+   
+    width: 300px;
+    height: 300px;
+
+}
+span{
+    color: #8b4513;
+    text-shadow: 3px 3px 3px black;
+
+}
+
