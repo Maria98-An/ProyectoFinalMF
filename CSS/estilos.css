@@ -2,8 +2,14 @@
     font-family: "brandhitc";
     src: url("bradhitc.ttf");
 }
-
-
+body{
+    background:url("../IMG/fondorp.png");
+    background-size: cover;
+}
+#nuevo{
+    background:url("../IMG/cafe1.jpg");
+        background-size: cover;
+}
 #maria{
     font-family: "brandhitc";
     font-size: 50px;
@@ -30,30 +36,26 @@ p{
 
 
 }
+#start{
+    vertical-align: middle;
+}
 img{
     vertical-align: middle;
-}
-#uno{
-    vertical-align: middle;
 
-    
-}
-#dos{
-    vertical-align: middle;
-
-}
+    }
 #imagen {
-    width:500px;
+    width:200px;
     height:375px;
     position:relative;
 }
 #imagen>div
 {
     position: relative;
-    bottom:25px;
+    bottom:900px;
     color:#fff;
     background-color:#000;
-    padding:2px 10px;
+    padding:300px 600px;
     opacity:0.5;
     font-weight:bold;
+    font-size: 90px;
 }
